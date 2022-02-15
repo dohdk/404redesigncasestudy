@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap');
+body {
+    animation: transitionIn 1s;
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    background-color: #1A1B18;
+}
+
+.background-image {
+    opacity: 0.8 !important;
+    position: relative;
+    top: -10px;
+    text-align:center;
+    
+}
+.centered-text {
+    color:white !important;
+    position:absolute;
+    top:38%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.centered-text h1 {
+    font-size: 80px;
+}
+.centered-text p {
+    font-size: 45px;
+    text-align: center;
+    overflow: hidden;
+    padding: 0.5em;
+}
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+.cursor .typing {
+    animation: none;
+}
+@keyframes blink {
+    0% {background-color: #ccc;}
+    49% {background-color: #ccc;}
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% {background-color: #ccc;}
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+}
+.dropdown-menu.show {
+    display: block;
+}
+.navbar-brand {
+    font-size: 25px !important;
+}
+#mainNav{
+    position:absolute; /* Make it stick/fixed */
+    width: 100%; /* Full width */
+    background-color: transparent !important;
+    font-size: 21px;
+}
+.navbar-nav .dropdown-menu {
+    position: static;
+}
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-left: 1.5em;
+}
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.2em;
+    color: white !important;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    color: white !important;
+    padding-top: 1.5em;
+}
+
+hr {
+    color: white;
+}
+img {
+    vertical-align: middle;
+}
+.btn-primary:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.card-image {
+    text-align: center;
+ 
+}
+.card-image-index {
+    text-align:center;
+    transition: transform 0.2s;
+}
+.card-image-index:hover{
+    -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.card-image-about {
+    text-align: center;
+}
+.btn-primary {
+    color: black;
+    background-color: #F6FEA5 !important;
+    border: black;
+}
+.btn-primary:hover {
+    color: black;
+    background-color: #0b5ed7;
+    border-color: black;
+}
+.btn-primary:visited {
+    color: black;
+}
+footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    width:100%;
+}
+.img-fluid {
+    max-width: 100%;
+    height:auto;
+    padding-bottom: 2em;
+}
+.image-fluid {
+    max-width: 100%;
+    padding-top: 4em;
+}
+.row p {
+    font-size: 25px;
+}
+.card {
+    background-color: #1A1B18;
+    
+}
+
+.img-fluid {
+    max-width: 100%;
+    height:auto;
+    vertical-align: middle;
+}
+
+hr:not([size]) {
+    height: 1px;
+    color: #F6FEA5;
+}
+
+.carousel {
+    padding-top: 4em;
+    position: relative;
+}
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 60%;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
